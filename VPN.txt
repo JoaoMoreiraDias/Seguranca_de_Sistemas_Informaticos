@@ -1,0 +1,20 @@
+OpenVPN
+-------
+Windows/Mac/Linux
+Gratuito
+OpenVPN Technologies
+GNU GPL/Open Source
+
+Cisco VPN
+---------
+Windows/Mac/Linux/Solaris
+Pago
+Cisco Systems
+Propriatario
+
+LogMeIn Hamachi
+---------------
+Windows/Mac/Linux
+Gratuito (Num. de maquinas limitado)
+LogMeIn Inc.
+Propriatario

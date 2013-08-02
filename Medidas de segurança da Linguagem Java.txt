@@ -1,0 +1,41 @@
+Observações: 
+
+-Java têm múltiplas funcionalidades de segurança integradas na linguagem (contudo o Java continua a não ser uma linguagem completamente segura), enquanto o C é mais limitado neste contexto.
+
+-Java é executado como a interpretação byte code numa máquina JVM, enquanto o C é executado como linguagem de máquina que carrega e executa diretamente. O JVM também tem a vantagem de prevenir a maior parte (há algumas exempções) de buffer overflows porque os limites dos Strings (que são baseadas em arrays de chars) são sempre verificados. Ao eliminara buffer overlows, todos os outros tipos de erros derivados do buffer overflow também são eliminados por consequência.
+
+-Java já tem Strings como tipo de dados, por isso não precisa de ter "terminator charecters", ao contrário do C que depende do caracter especial de "\0" para terminar a String. Assim, o Java evita erros na manipulação de Strings porque os Strings são controlados pelo sistema e não há limites mal/não definidos.
+
+-Não existem pointers em Java, só referencias a objetos instanciados. Como o C é uma linguagem baseada em funções e não orientada a objetos, necessita de usar pointers que podem ser manipulados ou maltratados resultado num pointer que aponta para uma posição de memória não relativa ao processo original (um falha de segurança e privacidade).
+
+-C, ao contrário do Java, não tem um sistema de "garbage collection".
+
+
+
+Funcionalidades de segurança Java não tratados na aula:
+
+-Caracteres terminadores na classe String.
+
+-Primitivas e objectos são inicializados com valores de defeito.
+
+-Pacote de segurança Java Security Extentions.
+
+-Pacotes de criptografia Java Cryptography Architecture e Java Cryptography Extension.
+
+-Autenticação e certificados digitais.
+
+-Controlo de acesso e permissões.
+
+
+
+Fontes:
+
+ttp://introcs.cs.princeton.edu/java/faq/c2java.html
+
+http://stackoverflow.com/questions/479701/does-java-have-buffer-overflows
+
+http://en.wikipedia.org/wiki/Java_security
+
+http://en.wikipedia.org/wiki/Criticism_of_Java#Security
+
+http://www.isaca.org.hk/document/cisa_slide/Java%20Security/img1.htm
